@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="transport">
+        <item>미선택</item>
+        <item>자가용</item>
+        <item>버스</item>
+        <item>택시</item>
+        <item>지하철</item>
+        <item>기차</item>
+        <item>자전거</item>
+        <item>도보</item>
+    </string-array>
+</resources>

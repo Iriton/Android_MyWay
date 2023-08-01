@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.component.Calendar">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/date" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="23dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/back" />
+    </FrameLayout>
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mcv_selectionColor="#33B6FF"
+        app:mcv_showOtherDates="all"
+        app:mcv_selectionMode="range"/>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/select"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/selection" />
+</LinearLayout>

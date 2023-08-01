@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scheduleLayout"
+    android:orientation="vertical"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp">
+    <LinearLayout
+        android:id="@+id/placeBox"
+        android:background="@drawable/edittext_background_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp">
+        <!--장소 입력 내용-->
+        <TextView
+            android:id="@+id/placeEditText"
+            android:textSize="16sp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingRight="4dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/editPopupMenu"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/dot"
+            android:clickable="true"
+            android:contentDescription="편집 버튼"/>
+
+    </LinearLayout>
+
+
+    <!--사용자 입력 내용-->
+    <LinearLayout
+        android:id="@+id/scheduleBox"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:background="@drawable/edittext_background_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <!--시간-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="7dp"
+                android:paddingTop="7dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="3dp"
+                android:text="시간  |"
+                android:textColor="#2196F3"
+                android:textSize="14dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/timeEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 : 20" />
+        </LinearLayout>
+
+        <!--이동수단-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/transport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="7dp"
+                android:paddingTop="7dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="3dp"
+                android:text="이동수단  |"
+                android:textColor="#2196F3"
+                android:textSize="14dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/transportEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기차" />
+        </LinearLayout>
+        <!--예산-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/money"
+                android:paddingTop="3dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="3dp"
+                android:text="예산  |"
+                android:textColor="#2196F3"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:id="@+id/moneyEditText"
+                android:text="49,200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/won"
+                android:text=" 원"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--메모-->
+        <TextView
+            android:id="@+id/other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingBottom="3dp"
+            android:text="메모"
+            android:textColor="#2196F3"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:textSize="12dp"
+            android:id="@+id/otherEditText"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="침대로---SWU웅----3" />
+
+    </LinearLayout>
+</LinearLayout>

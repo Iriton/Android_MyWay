@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="true"
+    tools:context=".ui.recommend.Recommend1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/v1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/v1" />
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="23dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/back" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/rec1"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/rec1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/sub1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="대나무 숲과 한옥의 조화가 아름다운 조선왕조사당"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/detail1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="조선의 초대 왕인 ‘태조’의 초상화를 보관하기 위해 지어진 사당. 태조는 물론 ‘영조’, ‘정조’ 등 수많은 임금들의 초상화를 만날 수 있는 ‘어진 박물관’이 자리해 있으며, 조선 왕조 실록을 보관한 장소인 ‘전주사고’도 있어 역사적 가치가 크다. 고풍스러운 건물들과 조경을 감상하며 도심 속 여유를 즐기기 좋으며, 대나무 숲과 한옥 대문이 조화를 이룬 유명 포토 스팟이 있으니 고운 한복을 대여해 인생 사진을 남겨보는 것을 추천한다."
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

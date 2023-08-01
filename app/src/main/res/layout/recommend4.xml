@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="true"
+    tools:context=".ui.recommend.Recommend4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/v4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/v4" />
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="23dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/back" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/rec4"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/rec4" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/sub1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="사계절 만발하는 꽃과 다채로운 볼거리로 가득한 가평 대표 관광명소"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/detail1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="한국 정원의 우아한 멋을 전 세계에 알리고자 설립된 대규모 수목원. 드라마와 영화의 배경지로 다수 쓰이면서 더욱 유명해진 곳으로, 총 10만 평의 면적에 22여 개의 특색 있는 주제 정원으로 꾸며져 있다. 계절별로 다양한 축제와 전시 행사가 열려 볼거리가 다양하며, 곳곳에 예쁜 포토 존이 있어 맑은 자연 속에서 아이와 추억을 쌓기도 조다. 매년 겨울 밤에는 사방이 화려한 LED 조명으로 빛나는 축제 ‘오색 별빛 정원’을 개최해 많은 여행객이 기간에 맞춰 방문한다."
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

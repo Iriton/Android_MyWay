@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="true"
+    tools:context=".ui.recommend.Recommend3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/v3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/v3" />
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="23dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/back" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/rec3"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/rec3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/sub1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="전라남도 여수시 돌산읍 돌산로 3600-1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/detail1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="‘자산 공원’과 ‘돌산 공원’을 잇는 국내 최초의 해상 케이블카. 하늘 위에서 푸른 바다와 여수 시내는 물론, ‘거북선 대교’, ‘돌산 대교’, ‘장군도’, ‘하멜 전시관’까지 내려다 볼 수 있어 인기다. 낮에는 햇빛에 반짝이는 모래알 같은 바다를, 해가 지면 낭만적인 노을과 화려한 야경을 감상할 수 있고, 크리스털 캐빈은 일반 캐빈과는 달리 바닥을 투명한 강화유리로 만들어 발 밑으로 바다가 펼쳐진 스릴감을 선사해 이용하는 사람이 많다. ‘여수 해상 케이블카 돌산 탑승장’ 또는 ‘여수 해상 케이블카 자산 탑승장’ 두 곳 중 일정에 맞는 곳을 선택해 탑승하면 되니 참고하자"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

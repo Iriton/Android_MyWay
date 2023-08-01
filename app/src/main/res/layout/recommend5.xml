@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="true"
+    tools:context=".ui.recommend.Recommend5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/v5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/v5" />
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="23dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/back" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/rec5"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/rec5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/sub1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:text=" ‘소양강’ 위를 걷는 듯한 짜릿함을 즐길 수 있는    스카이 워크"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/detail1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="춘천의 랜드마크 ‘소양강 처녀상’ 옆에 만들어진, 소양강 위 스카이 워크. 전체 길이 174m 중 바닥이 유리로 된 구간이 156m에 달해 아찔함을 더한다. 스카이 워크 끝자락의 원형 광장 또한 바닥이 유리로 이뤄져 강 위에 떠 있는 기분을 즐길 수 있으며, 물을 내뿜는 쏘가리상을 가까이 볼 수 있는 포인트로 멋진 기념 사진을 찍기 좋다. 밤에는 화려한 조명을 밝혀 소양강의 밤을 장식하는 곳으로도 알려졌다."
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

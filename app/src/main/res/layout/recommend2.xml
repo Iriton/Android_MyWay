@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="true"
+    tools:context=".ui.recommend.Recommend2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/v2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/v2" />
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="23dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/back" />
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/rec2"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/rec2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/sub1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="성벽과 바다, 하늘을 한 장에 담을 수 있는 곳"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/detail1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="2003년 태풍 ‘매미’가 쓸고 간 자리에 지어진 성. 외관만 보면 유럽 중세 시대의 오래된 성을 연상케 한다. 이 성은 ‘백순삼’씨가 사비를 털어 혼자 지은 곳으로, 그는 태풍 매미로 정성 들였던 농작물에 피해를 입자 앞으로 태풍으로 인한 피해를 방지하기 위해 하연 벽돌을 쌓기 시작했다. 점차 벽돌을 쌓는 범위가 늘어나면서 현재의 모습이 되었고, 여전히 성 근처에서 홀로 성의 외벽을 쌓고 있는 백순삼 씨를 만날 수 있다. 파란 파도와 몽돌이 오밀조밀 있는 해변과 어우러진 성의 모습이 아름답고, 특히 성벽 안쪽에는 하늘과 바다가 마치 액자에 담긴 듯한 SNS 인기 포토 스팟이 있어 많은 여행객이 방문한다."
+                        android:textSize="14sp" />
+
+                </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

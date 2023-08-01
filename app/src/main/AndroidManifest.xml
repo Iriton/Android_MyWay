@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="false"
+        android:theme="@style/Theme.GURU2_kjy"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".ui.schedule.check.ScheduleCheck"
+            android:exported="false"
+            android:parentActivityName=".ui.component.Calendar" />
+        <activity
+            android:name=".ui.schedule.input.ScheduleInput"
+            android:exported="false"
+            android:parentActivityName=".ui.schedule.check.ScheduleCheck"/>
+        <activity
+            android:name=".ui.popup.secession_popup"
+            android:exported="false"
+            android:parentActivityName=".ui.mypage.Mypage" />
+        <activity
+            android:name=".ui.mypage.Mypage"
+            android:exported="false"
+            android:parentActivityName=".ui.travel.Home" />
+        <activity
+            android:name=".ui.component.Calendar"
+            android:exported="false"
+            android:parentActivityName=".ui.area.Areapick" />
+        <activity
+            android:name=".ui.area.Areapick"
+            android:exported="false"
+            android:parentActivityName=".ui.travel.Home" />
+        <activity
+            android:name=".ui.recommend.Recommend5"
+            android:exported="false"
+            android:parentActivityName=".ui.travel.Home" />
+        <activity
+            android:name=".ui.recommend.Recommend4"
+            android:exported="false"
+            android:parentActivityName=".ui.travel.Home" />
+        <activity
+            android:name=".ui.recommend.Recommend3"
+            android:exported="false"
+            android:parentActivityName=".ui.travel.Home" />
+        <activity
+            android:name=".ui.recommend.Recommend2"
+            android:exported="false"
+            android:parentActivityName=".ui.travel.Home" />
+        <activity
+            android:name=".ui.recommend.Recommend1"
+            android:exported="false"
+            android:parentActivityName=".ui.travel.Home" />
+        <activity
+            android:name=".ui.travel.Home"
+            android:exported="false"
+            android:parentActivityName=".ui.login.Login" />
+        <activity
+            android:name=".ui.login.Login"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

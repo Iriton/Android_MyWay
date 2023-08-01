@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayoutContainer">
+
+    <!-- 리니어 레이아웃으로 프레임레이아웃과 스크롤뷰를 수직으로 배치 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linearLayoutContainer"
+        android:orientation="vertical"
+        tools:ignore="NotSibling">
+
+        <!-- 타이틀바 -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/plan" />
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/back" />
+        </FrameLayout>
+
+        <!-- 스크롤뷰 -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <!-- 일차별 레이아웃 추가 -->
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:orientation="vertical"
+                android:paddingTop="8dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <!-- 각 일정 사이에 간격을 주기 위한 빈 레이아웃 -->
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- Register 버튼 -->
+        <ImageButton
+            android:id="@+id/registerBtn"
+            android:layout_width="237dp"
+            android:layout_height="49dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/register" />
+
+    </LinearLayout>
+</RelativeLayout>
