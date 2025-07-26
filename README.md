@@ -1,5 +1,9 @@
 # Android_MyWay
 Programming Guru 2 Android - SWU-ung (슈웅) 팀의 여행 일정 기록 및 관리 앱
+
+## 설명 Youtube
+https://youtu.be/Omiuee9GCZY?si=KFmZswqBvve-g5OY
+
 ## 주요 기능
 - 시작 화면 : 사용자 이름 입력
 - 홈 화면 : 추천 여행지, 등록한 여행지
